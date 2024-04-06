@@ -4,13 +4,20 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: 'time-to-have-more-fun.firebaseapp.com',
-  databaseURL: 'https://time-to-have-more-fun.firebaseio.com',
-  projectId: 'time-to-have-more-fun',
-  storageBucket: 'time-to-have-more-fun.appspot.com',
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
+  apiKey: "AIzaSyCgBKV9Pyn2qTPWZPFuMrUDauLSnE5FgmE",
+
+    authDomain: "linkfolio-12e11.firebaseapp.com",
+
+    databaseURL: "https://linkfolio-12e11-default-rtdb.firebaseio.com",
+
+    projectId: "linkfolio-12e11",
+
+    storageBucket: "linkfolio-12e11.appspot.com",
+
+    messagingSenderId: "913257243047",
+
+    appId: "1:913257243047:web:f9ed5b6979a53587315682"
+
 };
 
 if (!firebase.apps.length) {
